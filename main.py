@@ -160,8 +160,8 @@ def getBeijinTime():
                 #print(msg_mi)
             if a:
                push('【小米运动步数修改】', msg_mi)
-               push_wx(msg_mi)
-               run(msg_mi)
+              # push_wx(msg_mi)
+              # run(msg_mi)
             else:
                print("此次修改结果不推送")
     else:
@@ -325,8 +325,8 @@ def get_access_token():
 
 
 def run(msg):
-    if false:
-    #if position:
+    #if fales:
+    if position:
         data = {
             "touser": touser,
             "toparty": toparty,
